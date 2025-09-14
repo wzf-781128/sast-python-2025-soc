@@ -131,9 +131,6 @@ try:
                 middle_list.append(detail_comment)
             else:
                 bad_list.append(detail_comment)
-    print(good_list)
-    print(middle_list)
-    print(bad_list)
 except KeyError as e:
     print(f"解析评论列表时出错: {e}")
 except Exception as e:
