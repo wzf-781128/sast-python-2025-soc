@@ -100,7 +100,7 @@ with open('aaa_soc.webp', 'wb') as f:
             f.write(chunk)
 cp.listen.start('h5/mtop.taobao.rate.detaillist.get/6.0')
 cp.ele('css:div[class^="ShowButton--"]').click()
-time.sleep(random.randint(1, 3))
+time.sleep(random.randint(1, 2))
 aaa=[]
 try:
     inquery = cp.listen.wait(count=10,timeout=10,fit_count=False)
